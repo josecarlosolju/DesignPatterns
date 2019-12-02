@@ -4,7 +4,7 @@ Combinação de 3 design patterns: Factory/Strategy/Proxy
 Simular uma premiação de game para jogadores casual e premium
 ## Design Patterns
 ###### Factory: 
-Classe abstrata responsavel por instanciar (games)
+Define metodo para a criação (games)
 ###### Strategy: 
 Atribuir o comportamento (games)
 ###### Proxy: 
