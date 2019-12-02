@@ -1,14 +1,7 @@
-﻿/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package strategyfactoryproxy;
 
-/**
- *
- * @author JOSECARLOS
- */
-public class residentEvil2 {
-   
+public class residentEvil2 implements Games{
+    public void sair(){
+        System.out.println("Resident Evil 2 Remake: exploração tensa e enigmas em uma cidade repleta de zumbis");   
+    }
 }
