@@ -1,19 +1,16 @@
 package strategyfactoryproxy;
 
 public class GamesFactory {
-    public Games criarIdioma(String pais){
-        if(pais.equalsIgnoreCase("NierAutomata")){
+    public Games criarGame(String game){
+        if(game.equalsIgnoreCase("NierAutomata")){
             return new NierAutomata();
-        }if(pais.equalsIgnoreCase("DevilMyCry5")){
+        }if(game.equalsIgnoreCase("DevilMyCry5")){
             return new DevilMyCry5();
-        }if(pais.equalsIgnoreCase("residentEvil2")){
+        }if(game.equalsIgnoreCase("residentEvil2")){
             return new residentEvil2();
-        }if(pais.equalsIgnoreCase("MassEffect")){
+        }if(game.equalsIgnoreCase("MassEffect")){
             return new MassEffect();
-        }
-        
-        
-        else{
+        }else{
             return new NaoEncontrado();   
         }
     }

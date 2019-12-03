@@ -1,14 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package strategyfactoryproxy;
 
-/**
- *
- * @author josecarlos
- */
-public class ConteudoCompleto {
-   
+public class ConteudoCompleto implements Conteudo{
+    public void conteudo(){
+        System.out.println("Game completo");}
 }
+

@@ -1,14 +1,7 @@
-﻿/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package strategyfactoryproxy;
 
-/**
- *
- * @author JOSECARLOS
- */
-public class DevilMyCry5 {
-   
+public class DevilMyCry5 implements Games{
+    public void sair(){
+        System.out.println("Devil My Cry 5: três caçadores devem enfrentar seus demônios se quiserem sobreviver. O mal que você conhece retorna com a mais superior experiência de ação desta geração!");   
+    }
 }

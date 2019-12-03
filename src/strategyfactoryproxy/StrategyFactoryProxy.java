@@ -12,11 +12,11 @@ public class StrategyFactoryProxy {
                 + "Jogadores Casual: Game completo\n"
                 + "Jogadores Premium: Game completo + Gold Edtion"
                 + "\n");
-        GamesFactory idiomasFactory = new GamesFactory();
-        Games idioma = idiomasFactory.criarIdioma("MassEffect");
-        sistema.setIdioma(idioma);
+        GamesFactory GamesFactory = new GamesFactory();
+        Games game = GamesFactory.criarGame("masseffect");
+        sistema.setGames(game);
         sistema.mensagemSair();
-        jogadorCasual.iniciar();
+        JogadorPremium.conteudo();
 
         
         

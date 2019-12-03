@@ -7,7 +7,7 @@ public class Sistema {
         games.sair();
     }
     
-   public void setIdioma(Games games){
+   public void setGames(Games games){
        this.games = games;
    }
 }

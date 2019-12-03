@@ -1,16 +1,15 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package strategyfactoryproxy;
 
-/**
- *
- * @author josecarlos
- */
-public class ConteudoGoldEdtion {
+
+public class ConteudoGoldEdtion implements Conteudo{
     
+    Conteudo completo = new ConteudoCompleto();
     
+    @Override
+    public void conteudo() {
+        System.out.println("Gold Edtion: DLC + Pack de armas Gold + Boost(XP + GOLD) ");
+        this.completo.conteudo();
+    }
     
 }

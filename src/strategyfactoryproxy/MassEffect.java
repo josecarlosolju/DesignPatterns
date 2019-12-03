@@ -1,14 +1,7 @@
-﻿/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package strategyfactoryproxy;
 
-/**
- *
- * @author JOSECARLOS
- */
-public class MassEffect {
-    
+public class MassEffect implements Games{
+    public void sair(){
+        System.out.println("Mass Effect: RPG sci-fi com exploração intergalática, diversas raças alienígenas e uma história rica.");   
+    }
 }
